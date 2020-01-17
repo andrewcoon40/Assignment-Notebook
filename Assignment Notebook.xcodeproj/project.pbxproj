@@ -14,6 +14,7 @@
 		AF83777B23D0CD4D00811F0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF83777923D0CD4C00811F0B /* Main.storyboard */; };
 		AF83777D23D0CD5000811F0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF83777C23D0CD5000811F0B /* Assets.xcassets */; };
 		AF83778023D0CD5000811F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF83777E23D0CD5000811F0B /* LaunchScreen.storyboard */; };
+		AF83778823D0CDB800811F0B /* Assignments.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF83778723D0CDB800811F0B /* Assignments.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AF83777C23D0CD5000811F0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF83777F23D0CD5000811F0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AF83778123D0CD5000811F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF83778723D0CDB800811F0B /* Assignments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignments.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				AF83777123D0CD4C00811F0B /* AppDelegate.swift */,
 				AF83777323D0CD4C00811F0B /* SceneDelegate.swift */,
 				AF83777523D0CD4C00811F0B /* MasterViewController.swift */,
+				AF83778723D0CDB800811F0B /* Assignments.swift */,
 				AF83777723D0CD4C00811F0B /* DetailViewController.swift */,
 				AF83777923D0CD4C00811F0B /* Main.storyboard */,
 				AF83777C23D0CD5000811F0B /* Assets.xcassets */,
@@ -144,6 +147,7 @@
 				AF83777223D0CD4C00811F0B /* AppDelegate.swift in Sources */,
 				AF83777423D0CD4C00811F0B /* SceneDelegate.swift in Sources */,
 				AF83777623D0CD4C00811F0B /* MasterViewController.swift in Sources */,
+				AF83778823D0CDB800811F0B /* Assignments.swift in Sources */,
 				AF83777823D0CD4C00811F0B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
