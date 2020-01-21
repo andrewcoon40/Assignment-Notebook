@@ -30,11 +30,44 @@
                     <view key="view" contentMode="scaleToFill" id="svH-Pt-448">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Class name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oWq-hy-MDR">
+                                <rect key="frame" x="159" y="110" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Due date" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ppx-rs-RUm">
+                                <rect key="frame" x="159" y="171" width="97" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Assignment description" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hnD-o0-qUR">
+                                <rect key="frame" x="120" y="232" width="175" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hnD-o0-qUR" firstAttribute="top" secondItem="Ppx-rs-RUm" secondAttribute="bottom" constant="27" id="FsP-6K-B5r"/>
+                            <constraint firstItem="oWq-hy-MDR" firstAttribute="centerX" secondItem="svH-Pt-448" secondAttribute="centerX" id="KZx-mP-xSh"/>
+                            <constraint firstItem="oWq-hy-MDR" firstAttribute="leading" secondItem="Ppx-rs-RUm" secondAttribute="leading" id="Nkv-Kt-pSf"/>
+                            <constraint firstItem="oWq-hy-MDR" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" constant="159" id="WYz-hy-YqA"/>
+                            <constraint firstItem="oWq-hy-MDR" firstAttribute="trailing" secondItem="Ppx-rs-RUm" secondAttribute="trailing" id="XdT-ff-NWX"/>
+                            <constraint firstItem="Ppx-rs-RUm" firstAttribute="centerX" secondItem="hnD-o0-qUR" secondAttribute="centerX" id="kQc-ce-4Hb"/>
+                            <constraint firstItem="hnD-o0-qUR" firstAttribute="leading" secondItem="VUw-jc-0yf" secondAttribute="leading" constant="120" id="l7u-Ii-MYX"/>
+                            <constraint firstItem="oWq-hy-MDR" firstAttribute="top" secondItem="VUw-jc-0yf" secondAttribute="top" constant="22" id="ndZ-mz-Q18"/>
+                            <constraint firstItem="Ppx-rs-RUm" firstAttribute="top" secondItem="oWq-hy-MDR" secondAttribute="bottom" constant="27" id="sak-fx-4eo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="VUw-jc-0yf"/>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Assignment details" id="mOI-FS-AaM"/>
+                    <connections>
+                        <outlet property="detailsTextField" destination="hnD-o0-qUR" id="NKd-gh-1dd"/>
+                        <outlet property="dueDateTextField" destination="Ppx-rs-RUm" id="1bz-hl-tD6"/>
+                        <outlet property="subjectTextField" destination="oWq-hy-MDR" id="k6b-8x-bEp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FJe-Yq-33r" sceneMemberID="firstResponder"/>
             </objects>

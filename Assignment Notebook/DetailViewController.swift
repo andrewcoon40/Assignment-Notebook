@@ -9,7 +9,9 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    @IBOutlet weak var subjectTextField: UITextField!
+    @IBOutlet weak var dueDateTextField: UITextField!
+    @IBOutlet weak var detailsTextField: UITextField!
     @IBOutlet weak var detailDescriptionLabel: UILabel!
 
 
